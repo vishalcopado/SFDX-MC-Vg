@@ -1,1 +1,4 @@
 .sfdx-project.json
+.gitignore
+.sfdx/sfdx-config.json
+sfdx-project.json
