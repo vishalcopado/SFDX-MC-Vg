@@ -1,0 +1,45 @@
+regex_lib: 
+  remove-simple-tag: '(?s)(\n\s*<___REPLACEVALUE___>[\s\S]*?</___REPLACEVALUE___>)'
+  translation-gender: '(?i)\s*<gender><!--\s*___REPLACEVALUE___\s*--></gender>'
+  replaceAnyting: '___REPLACEVALUE___'
+  fieldPermissions: '(?s)(\n\s*<fieldPermissions>(?:(?!<fieldPermissions>).)*?<field>___REPLACEVALUE___</field>(?:(?!<fieldPermissions>).)*?</fieldPermissions>)'
+  userPermission: '(?s)(\n\s*<objectPermissions>(?:(?!<objectPermissions>).)*?<object>___REPLACEVALUE___</object>(?:(?!<objectPermissions>).)*?</objectPermissions>)'
+
+
+
+rules:
+  removeObjectPermissions_AllApps: 
+    branches:
+    file_patterns: 
+      - '*/*.permissionset-meta.xml'
+    regex_name: objectPermissions
+    replace_values: 
+      - Case
+    replace_with: 
+  
+  removeAccountFieldPermissions_devApp: 
+    branches:
+    file_patterns: 
+      - '**/dev-app/**/*.permissionset-meta.xml'
+    regex_name: fieldPermissions
+    replace_values: 
+      - Account.*?
+    replace_with: 
+  
+  removeCaseFieldPermissions_myApp: 
+    branches:
+    file_patterns: 
+      - '**/my-app/**/*.permissionset-meta.xml'
+    regex_name: fieldPermissions
+    replace_values: 
+      - Case.*?
+    replace_with: 
+  
+  removeOpptyFieldPermissions_newApp: 
+    branches:
+    file_patterns: 
+      - '**/new-app/**/*.permissionset-meta.xml'
+    regex_name: fieldPermissions
+    replace_values: 
+      - Opportunity.*?
+    replace_with: 
