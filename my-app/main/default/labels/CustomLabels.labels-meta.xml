@@ -14,4 +14,25 @@
         <shortDescription>Label8</shortDescription>
         <value>Label8</value>
     </labels>
+    <labels>
+        <fullName>myApp1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>myApp1</shortDescription>
+        <value>myApp1</value>
+    </labels>
+    <labels>
+        <fullName>myApp2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>myApp2</shortDescription>
+        <value>myApp2</value>
+    </labels>
+    <labels>
+        <fullName>myApp3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>myApp3</shortDescription>
+        <value>myApp3</value>
+    </labels>
 </CustomLabels>
