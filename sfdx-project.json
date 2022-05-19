@@ -16,5 +16,5 @@
   "name": "nested-metadata-poc",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
+  "sourceApiVersion": "54.0"
 }
