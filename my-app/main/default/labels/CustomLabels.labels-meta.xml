@@ -15,27 +15,6 @@
         <value>Label8</value>
     </labels>
     <labels>
-        <fullName>devApp1</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>devApp1</shortDescription>
-        <value>devApp1</value>
-    </labels>
-    <labels>
-        <fullName>devApp2</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>devApp2</shortDescription>
-        <value>devApp2</value>
-    </labels>
-    <labels>
-        <fullName>devApp3</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>devApp3</shortDescription>
-        <value>devApp3</value>
-    </labels>
-    <labels>
         <fullName>myApp1</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -55,26 +34,5 @@
         <protected>true</protected>
         <shortDescription>myApp3</shortDescription>
         <value>myApp3</value>
-    </labels>
-    <labels>
-        <fullName>newApp1</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>newApp1</shortDescription>
-        <value>newApp1</value>
-    </labels>
-    <labels>
-        <fullName>newApp2</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>newApp2</shortDescription>
-        <value>newApp2</value>
-    </labels>
-    <labels>
-        <fullName>newApp3</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>newApp3</shortDescription>
-        <value>newApp3</value>
     </labels>
 </CustomLabels>
