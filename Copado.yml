@@ -3,7 +3,7 @@ regex_lib:
   translation-gender: '(?i)\s*<gender><!--\s*___REPLACEVALUE___\s*--></gender>'
   replaceAnyting: '___REPLACEVALUE___'
   fieldPermissions: '(?s)(\n\s*<fieldPermissions>(?:(?!<fieldPermissions>).)*?<field>___REPLACEVALUE___</field>(?:(?!<fieldPermissions>).)*?</fieldPermissions>)'
-  userPermission: '(?s)(\n\s*<objectPermissions>(?:(?!<objectPermissions>).)*?<object>___REPLACEVALUE___</object>(?:(?!<objectPermissions>).)*?</objectPermissions>)'
+  objectPermissions: '(?s)(\n\s*<objectPermissions>(?:(?!<objectPermissions>).)*?<object>___REPLACEVALUE___</object>(?:(?!<objectPermissions>).)*?</objectPermissions>)'
 
 
 
@@ -11,7 +11,7 @@ rules:
   removeObjectPermissions_AllApps: 
     branches:
     file_patterns: 
-      - '*/*.permissionset-meta.xml'
+      - '**/*.permissionset-meta.xml'
     regex_name: objectPermissions
     replace_values: 
       - Case
