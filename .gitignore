@@ -1,5 +1,9 @@
-
-        .gitignore
-        .sfdx/sfdx-config.json
-        .sfdx-project.json
-        
+ 
+    .sfdx/
+    .cache/
+    .ssh/
+    vlocity_build/
+    .gitignore
+    sfdx-project.json
+    package.xml
+    destructiveChanges.xml
