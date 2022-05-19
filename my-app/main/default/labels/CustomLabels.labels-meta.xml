@@ -26,13 +26,13 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>myApp2</shortDescription>
-        <value>myApp2</value>
+        <value>https://dev.snow.com</value>
     </labels>
     <labels>
         <fullName>myApp3</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>myApp3</shortDescription>
-        <value>myApp3</value>
+        <value>{!Environment.sapEndpointAllFolders}</value>
     </labels>
 </CustomLabels>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">   
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
         <fullName>devApp1</fullName>
         <language>en_US</language>
@@ -12,14 +12,14 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>devApp2</shortDescription>
-        <value>devApp2</value>
+        <value>https://dev.snow.com</value>
     </labels>
     <labels>
         <fullName>devApp3</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>devApp3</shortDescription>
-        <value>devApp3</value>
+        <value>{!Environment.sapEndpointAllFolders}</value>
     </labels>
     <labels>
         <fullName>Label2</fullName>
