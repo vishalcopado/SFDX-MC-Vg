@@ -6,6 +6,7 @@ public class MySampleApexClass {       //Class definition and body
    // Method definition and body
    // do some calculation
       myValue = myValue+10;
+      //check ./ param in sfdx-project.json
       return   myValue;          
    }
 }
