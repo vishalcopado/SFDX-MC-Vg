@@ -5,6 +5,7 @@ public class SFDXApexClass {       //Class definition and body
    public static Integer getCalculatedValue () {
    // Method definition and body
    // do some calculation
+   // edit to test again
       myValue = myValue+10;
       return myValue;
    }
