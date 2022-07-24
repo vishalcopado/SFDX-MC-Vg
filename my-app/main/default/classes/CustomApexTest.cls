@@ -1,6 +1,6 @@
 @IsTest
 private class CustomApexTest {
-    // test update
+    // test update 2
     @IsTest
     private static void testgetCalculatedValue() {
     Integer result = CustomApex.getCalculatedValue();
