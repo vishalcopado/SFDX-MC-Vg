@@ -5,7 +5,7 @@ public class CustomApex {       //Class definition and body
     public static Integer getCalculatedValue () {
     // Method definition and body
     // do some calculation
-    // test
+    // test update
        myValue = myValue+10;
        //check ./ param in sfdx-project.json
        return   myValue;          
