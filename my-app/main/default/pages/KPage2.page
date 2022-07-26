@@ -3,6 +3,6 @@
   <h1>Congratulations</h1>
   <h2> {!Environment.multipleVars} </h2>
   This is your new Page
-  <h1> kpaliwalDummyVariableUat </h1>
+  <h1> kpaliwalDummyVariableUat test </h1>
   <!-- End Default Content REMOVE THIS -->
 </apex:page>
