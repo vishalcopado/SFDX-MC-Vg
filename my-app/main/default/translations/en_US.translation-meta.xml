@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <prompts>
+        <name>FieldServiceHolidayManagement</name>
+        <promptVersions>
+            <name>Schedule Holiday Hours</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>DigitalEngagementMessagingPermissions</name>
+        <promptVersions>
+            <name>Digital Engagement Messaging Permissions</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>SalesHVSDialer</name>
+        <promptVersions>
+            <name>Sales HVS Dialer</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>EinsteinPredictionBuilderSetupPagePrompt</name>
+        <promptVersions>
+            <name>Einstein Prediction Builder Setup Page Prompt</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>SalesCoreQuoteAdminCpq</name>
+        <promptVersions>
+            <name>Sales Core Quote Admin to CPQ</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>CDPOnboardingInAppGuidance</name>
+        <promptVersions>
+            <name>CDP Onboarding InApp Guidance</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>tabletFullWidthGA</name>
+        <promptVersions>
+            <name>TabletFullWidthGA</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>IAGFeatureAdoption</name>
+        <promptVersions>
+            <name>IAG Feature Adoption Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>IAG Feature Adoption Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+    </prompts>
+    <quickActions>
+        <label></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description></description>
+        <label></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>
