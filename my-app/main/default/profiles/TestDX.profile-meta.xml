@@ -30,6 +30,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DXT__c.DXCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
