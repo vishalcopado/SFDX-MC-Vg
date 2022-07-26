@@ -8,6 +8,8 @@ public class VReplace {       //Class definition and body
     // update the file for varreplace {!Environment.username}
        myValue = myValue+10;
        //check ./ param in sfdx-project.json
+       // {!Environment.multipleVars}
+		// kpaliwalDummyVariableUat
        return   myValue;          
     }
  }
