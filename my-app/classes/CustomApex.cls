@@ -6,6 +6,7 @@ public class CustomApex {       //Class definition and body
     // Method definition and body
     // do some calculation
     // update the file for varreplace vgoyal@copado.com
+        // kompal check varReplace - kpaliwalDummyVariableDev1
        myValue = myValue+10;
        //check ./ param in sfdx-project.json
        return   myValue;          
