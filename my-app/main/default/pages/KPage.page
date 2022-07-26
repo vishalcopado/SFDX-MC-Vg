@@ -3,5 +3,7 @@
   <h1>Congratulations</h1>
   <h2> {!Environment.multipleVars} </h2>
   This is your new Page
+    <!-- {!Environment.restrictiveScope} -->
+    <!-- {!Environment.multipleVars} -->
   <!-- End Default Content REMOVE THIS -->
 </apex:page>
