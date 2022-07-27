@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>KompalCustomObj1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>KompalCustoms</value>
+    </caseValues>
+    <fieldSets>
+        <label>fieldset translate</label>
+        <name>KompalFieldSet</name>
+    </fieldSets>
+    <layouts>
+        <layout>KompalLayout1</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>KompalAction</name>
+    </quickActions>
+    <recordTypes>
+        <label>test translation in english</label>
+        <name>TestingRecord1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>transalte in EN</errorMessage>
+        <name>Validate_start_of_name</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>KompalButton</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>KompalLink</name>
+    </webLinks>
+</CustomObjectTranslation>
