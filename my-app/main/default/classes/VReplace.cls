@@ -10,6 +10,12 @@ public class VReplace {       //Class definition and body
        //check ./ param in sfdx-project.json
        // {!Environment.multipleVars}
 		// kpaliwalDummyVariableUat
+		// // commit with 2 close folders :
+		// kompaldev
+	  // {!Environment.multipleVars}
+		// kpaliwalDummyVariableUat
+		// // Multi-line check
+		//  multilinedev 
        return   myValue;          
     }
  }

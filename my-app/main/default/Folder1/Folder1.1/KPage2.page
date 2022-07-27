@@ -5,4 +5,8 @@
   This is your new Page
   <h1> kpaliwalDummyVariableUat test </h1>
   <!-- End Default Content REMOVE THIS -->
+    <!-- {!Environment.restrictiveScope} -->
+    <!-- {!Environment.multipleVars} -->
+    <!-- Multi-line check -->
+    <!-- {!Environment.multiLineKompal} -->
 </apex:page>
