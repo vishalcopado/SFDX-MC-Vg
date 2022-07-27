@@ -15,7 +15,7 @@ public class VReplace2 {
 	  // kpaliwalDummyVariableDev1
 		// kpaliwalDummyVariableUat
 		// Multi-line check
-		//  multilinedev 
+		//  {!Environment.multiLineKompal} 
        return   myValue;          
     }
 

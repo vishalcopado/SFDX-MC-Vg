@@ -8,6 +8,6 @@ private class VReplace2Test {
 	  // kpaliwalDummyVariableDev1
 		// kpaliwalDummyVariableUat
 		// // Multi-line check
-		//  multilinedev 
+		//  {!Environment.multiLineKompal} 
     }
 }
