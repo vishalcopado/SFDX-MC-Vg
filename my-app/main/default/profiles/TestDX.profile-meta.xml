@@ -31,10 +31,13 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>DXV__c.DXVCheck__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>DXV__c-DXV Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>false</allowCreate>
