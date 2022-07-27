@@ -28,7 +28,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>DXV__c.DXVCheck__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -44,12 +44,12 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
-        <allowDelete>true</allowDelete>
+        <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>DXV__c</object>
-        <viewAllRecords>true</viewAllRecords>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <userPermissions>
@@ -62,7 +62,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ApiEnabled</name>
+        <name>ViewSetup</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -70,7 +70,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewSetup</name>
+        <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -78,7 +78,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ApexRestServices</name>
+        <name>WorkDotComUserPerm</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -86,7 +86,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>WorkDotComUserPerm</name>
+        <name>ApexRestServices</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -98,19 +98,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CampaignInfluence2</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewDataLeakageEvents</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ActivitiesAccess</name>
+        <name>CampaignInfluence2</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>PasswordNeverExpires</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
