@@ -5,11 +5,17 @@ public class VReplace2 {
     public static Integer getCalculatedValue () {
     // Method definition and body
     // do some calculation
-    // update the file for varreplace {!Environment.username}
+    // update the file for varreplace vgoyal@copado.com
        myValue = myValue+10;
        //check ./ param in sfdx-project.json
-       // {!Environment.multipleVars}
+       // kpaliwalDummyVariableDev1
 		// kpaliwalDummyVariableUat
+		// commit with 2 close folders :
+		// {!Environment.restrScopeFolder}
+	  // kpaliwalDummyVariableDev1
+		// kpaliwalDummyVariableUat
+		// Multi-line check
+		//  {!Environment.multiLineKompal} 
        return   myValue;          
     }
 
