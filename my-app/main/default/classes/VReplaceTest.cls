@@ -7,5 +7,7 @@ private class VReplaceTest {
 		// kompaldev
 	  // {!Environment.multipleVars}
 		// kpaliwalDummyVariableUat
+		// <!-- Multi-line check -->
+   // {!Environment.multiLineKompal} 
     }
 }

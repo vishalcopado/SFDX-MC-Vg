@@ -6,4 +6,7 @@
     <!-- {!Environment.restrictiveScope} -->
     <!-- {!Environment.multipleVars} -->
   <!-- End Default Content REMOVE THIS -->
+    <!-- Multi-line check -->
+    <!-- {!Environment.multiLineKompal} -->
+	  
 </apex:page>

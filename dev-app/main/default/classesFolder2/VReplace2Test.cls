@@ -7,5 +7,7 @@ private class VReplace2Test {
 		// {!Environment.restrScopeFolder}
 	  // kpaliwalDummyVariableDev1
 		// kpaliwalDummyVariableUat
+		// // Multi-line check
+		//  multilinedev 
     }
 }

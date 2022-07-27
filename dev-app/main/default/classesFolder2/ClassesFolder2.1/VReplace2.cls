@@ -14,6 +14,8 @@ public class VReplace2 {
 		// {!Environment.restrScopeFolder}
 	  // kpaliwalDummyVariableDev1
 		// kpaliwalDummyVariableUat
+		// Multi-line check
+		//  multilinedev 
        return   myValue;          
     }
 

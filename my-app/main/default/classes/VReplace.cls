@@ -14,6 +14,8 @@ public class VReplace {       //Class definition and body
 		// kompaldev
 	  // {!Environment.multipleVars}
 		// kpaliwalDummyVariableUat
+		// // Multi-line check
+		//  multilinedev 
        return   myValue;          
     }
  }
