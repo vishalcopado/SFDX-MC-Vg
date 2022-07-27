@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_start_of_name</fullName>
+    <active>true</active>
+    <description>test</description>
+    <errorConditionFormula>BEGINS( Name ,&apos;k&apos;)</errorConditionFormula>
+    <errorMessage>name should start with &apos;K&apos;</errorMessage>
+</ValidationRule>

@@ -35,6 +35,15 @@
         <field>DXV__c.DXVCheck__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KompalCustomObj1__c.KompalCustomFIeld1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>KompalCustomObj1__c-KompalLayout1</layout>
+        <recordType>KompalCustomObj1__c.TestingRecord1</recordType>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -54,6 +63,15 @@
         <object>DXV__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>KompalCustomObj1__c.TestingRecord1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>KompalLightn1</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <userPermissions>
         <enabled>true</enabled>
