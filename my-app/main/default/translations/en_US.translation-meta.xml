@@ -59,15 +59,11 @@
     </prompts>
     <quickActions>
         <label></label>
-        <name>LogACall</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
         <name>NewAccount</name>
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewCase</name>
+        <name>LogACall</name>
     </quickActions>
     <quickActions>
         <label></label>
@@ -75,15 +71,7 @@
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewEvent</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>NewGroup</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>NewLead</name>
+        <name>NewCase</name>
     </quickActions>
     <quickActions>
         <label></label>
@@ -91,7 +79,19 @@
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewOpportunity</name>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
     </quickActions>
     <quickActions>
         <label></label>
@@ -99,7 +99,7 @@
     </quickActions>
     <quickActions>
         <label></label>
-        <name>SendEmail</name>
+        <name>NewOpportunity</name>
     </quickActions>
     <reportTypes>
         <description></description>
