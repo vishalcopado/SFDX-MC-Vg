@@ -1,7 +1,7 @@
 public class VReplace2 {
   public static Integer myValue = 0;  //Class Member variable
     public static String myString = ''; //Class Member variable
-    //update 3
+    //update 3 in promotion branch
     public static Integer getCalculatedValue () {
     // Method definition and body
     // do some calculation
