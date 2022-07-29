@@ -5,6 +5,6 @@ public class SampleApexClass {
     }
     
     public static String getString() {
-        return '12345'
+        return '12345';
     }
 }
