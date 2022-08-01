@@ -9,6 +9,7 @@ public class CustomApex {       //Class definition and body
        myValue = myValue+10;
        //check ./ param in sfdx-project.json
        //test var replace new - dev@copado.com
+       //test var replace new - dev@gmail.com
        return   myValue;          
     }
  }
