@@ -13,7 +13,7 @@
       "default": false
     }
   ],
-  "name": "nested-metadata-poc",
+  "name": "sfdx-mc-vg",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0"
