@@ -1,8 +1,14 @@
 <apex:page >
   <!-- Begin Default Content REMOVE THIS -->
   <h1>Congratulations</h1>
-  <h2> {!Environment.multipleVars} </h2>
+  <h2> kpaliwalDummyVariableDev1 </h2>
   This is your new Page
   <h1> kpaliwalDummyVariableUat test </h1>
   <!-- End Default Content REMOVE THIS -->
+    <!-- restrictiveScopedev -->
+    <!-- kpaliwalDummyVariableDev1 -->
+    <!-- Multi-line check -->
+    <!-- multilinedev -->
+    
+    <!-- {!Environment.emailTest} -->
 </apex:page>
