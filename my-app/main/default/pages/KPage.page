@@ -4,4 +4,5 @@
   <h2> {!Environment.multipleVars} </h2>
   This is your new Page
   <!-- End Default Content REMOVE THIS -->
+  Adding new enviroment variable directly in main branch
 </apex:page>
