@@ -1,7 +1,7 @@
 <apex:page >
   <!-- Begin Default Content REMOVE THIS -->
   <h1>Congratulations</h1>
+  <h2> kpaliwalDummyVariableDev1 </h2>
   This is your new Page
-  Adding new enviroment variable directly in main branch - dev@copado.com
-  <!-- End Default Content REMOVE THIS -->
+	  
 </apex:page>
