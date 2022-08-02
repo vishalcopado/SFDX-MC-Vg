@@ -80,6 +80,26 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DXSampleClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SampleApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SampleApexClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SampleClassTG</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SampleClassTG1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SampleClassUS0033060</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -242,6 +262,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.isPrimary__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -935,6 +960,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.ClosedOnCreate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
@@ -967,6 +997,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.MilestoneStatus</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.MilestoneStatusIcon</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1282,6 +1317,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointConsent.ContactPointTypeConsentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1696,6 +1736,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ContractLineItem.StatusIndicator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ContractLineItem.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1716,7 +1761,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>DXT__c.DXCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>DXV__c.DXVCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DXV__c.abc__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1732,6 +1787,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>DataUsePurpose.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerParty</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1812,6 +1882,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Entitlement.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.StatusIndicator</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2307,6 +2382,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>JobProfile.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KompalCustomObj1__c.KompalCustomFIeld1__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3006,6 +3086,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ProductTransfer.CanUpdateIsReceived</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ProductTransfer.ExpectedPickupDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3182,6 +3267,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ReturnOrderLineItem.SourceLocationId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SampleObj__c.Field2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3412,6 +3502,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ServiceContract.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceContract.StatusIndicator</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3936,6 +4031,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>WorkOrder.MilestoneStatusIcon</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WorkOrder.MinimumCrewSize</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4404,6 +4504,10 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>KompalFlow</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -4525,6 +4629,9 @@
         <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DXLast__c-DXLast Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DXT__c-DXT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4544,6 +4651,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EF__c-EF Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>EmailMessage-Email Message Layout</layout>
@@ -4607,6 +4717,20 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>JobProfile-Job Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KompalCustomObj1__c-KompalCustomObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KompalCustomObj1__c-KompalLayout1</layout>
+        <recordType>KompalCustomObj1__c.TestingRecord1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KompalCustom__c-KompalCustom Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KompalCustom__c-layout2</layout>
+        <recordType>KompalCustom__c.TestRecord1</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
@@ -4835,6 +4959,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Obj__c-Test Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
@@ -5359,6 +5486,15 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DXLast__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -5429,6 +5565,15 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>DuplicateRecordSet</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EF__c</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -5618,6 +5763,24 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>JobProfile</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>KompalCustomObj1__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>KompalCustom__c</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -6138,6 +6301,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>SocialPersona</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Solution</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6149,6 +6321,15 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>StreamingChannel</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Test_Obj__c</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -6350,6 +6531,20 @@
         <apexPage>envtest3</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>KompalCustomObj1__c.TestingRecord1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>KompalCustom__c.TestRecord1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>KompalLightn1</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
