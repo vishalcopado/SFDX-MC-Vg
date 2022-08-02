@@ -6,6 +6,12 @@
     <columns>
         <field>FOLDER</field>
     </columns>
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <columns>
+        <field>LASTRUNDATE</field>
+    </columns>
     <format>Tabular</format>
     <name>New US-0034659 Report</name>
     <params>
