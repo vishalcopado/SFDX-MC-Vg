@@ -12,6 +12,9 @@
     <columns>
         <field>LASTRUNDATE</field>
     </columns>
+    <columns>
+        <field>CREATEDDATE</field>
+    </columns>
     <format>Tabular</format>
     <name>New US-0034659 Report</name>
     <params>
