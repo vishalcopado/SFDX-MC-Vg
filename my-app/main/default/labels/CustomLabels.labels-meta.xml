@@ -19,7 +19,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>My-Label</shortDescription>
-        <value>Test value</value>
+        <value>Test value - update</value>
     </labels>
     <labels>
         <fullName>myApp1</fullName>
