@@ -15,6 +15,13 @@
         <value>Label8</value>
     </labels>
     <labels>
+        <fullName>MyLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>My-Label</shortDescription>
+        <value>Test value - update</value>
+    </labels>
+    <labels>
         <fullName>myApp1</fullName>
         <language>en_US</language>
         <protected>true</protected>
