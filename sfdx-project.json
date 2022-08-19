@@ -11,7 +11,11 @@
     {
       "path": "new-app",
       "default": false
-    }
+    },
+    {
+      "path": "wrong-app",
+      "default": false
+    },
   ],
   "name": "sfdx-mc-vg",
   "namespace": "",
