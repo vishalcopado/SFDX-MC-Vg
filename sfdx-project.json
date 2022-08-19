@@ -6,11 +6,11 @@
     },
     {
       "path": "my-app",
-      "default": true
+      "default": false
     },
     {
       "path": "new-app",
-      "default": false
+      "default": true
     }
   ],
   "name": "sfdx-mc-vg",
