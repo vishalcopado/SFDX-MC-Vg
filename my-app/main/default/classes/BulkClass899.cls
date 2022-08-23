@@ -1,0 +1,1 @@
+public class BulkClass899 { public BulkClass899(){ integer i = 0; } }
