@@ -1,0 +1,1 @@
+@isTest public class BulkClass822Test { @isTest static void myTest() { BulkClass822 tp = new BulkClass822(); system.assert(true);}}
