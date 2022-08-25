@@ -42,4 +42,11 @@
         <shortDescription>myLabel</shortDescription>
         <value>1</value>
     </labels>
+    <labels>
+        <fullName>myLabel3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myLabel3</shortDescription>
+        <value>label3</value>
+    </labels>
 </CustomLabels>
