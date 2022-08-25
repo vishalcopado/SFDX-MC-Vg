@@ -155,7 +155,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <historyRetentionPolicy n1:nil="true" />
-    <label>Bulk Object 4</label>
+    <label>Bulk Object 04</label>
     <nameField>
         <label>Name</label>
         <type>Text</type>
