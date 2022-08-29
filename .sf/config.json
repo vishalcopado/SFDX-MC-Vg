@@ -1,4 +1,5 @@
 {
   "org-instance-url": "https://platform-customer-3745-dev-ed.my.salesforce.com",
-  "org-api-version": "55.0"
+  "org-api-version": "55.0",
+  "target-org": "dxmaindev1"
 }
