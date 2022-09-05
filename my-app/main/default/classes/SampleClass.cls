@@ -1,6 +1,6 @@
 public class SampleClass {
     public SampleClass() {
         String sampleString;
-        String abcd = '1234';
+        String abcd = '5678';
     }
 }
