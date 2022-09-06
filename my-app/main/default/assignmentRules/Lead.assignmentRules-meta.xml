@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <assignmentRule>
-        <fullName>US-0035424</fullName>
-        <active>true</active>
-        <ruleEntry>
-            <assignedTo>test-l6pbwmm8gvky@example.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <formula>OwnerId &lt;&gt; LastModifiedById</formula>
-        </ruleEntry>
-    </assignmentRule>
 </AssignmentRules>
