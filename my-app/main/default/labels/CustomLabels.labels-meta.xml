@@ -15,6 +15,13 @@
         <value>Label8</value>
     </labels>
     <labels>
+        <fullName>deleteparent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>deleteparent</shortDescription>
+        <value>delete test</value>
+    </labels>
+    <labels>
         <fullName>myApp1</fullName>
         <language>en_US</language>
         <protected>true</protected>
