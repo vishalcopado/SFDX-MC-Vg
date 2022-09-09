@@ -35,4 +35,11 @@
         <shortDescription>myApp3</shortDescription>
         <value>myApp3</value>
     </labels>
+    <labels>
+        <fullName>myLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>myLabel</shortDescription>
+        <value>1_updated</value>
+    </labels>
 </CustomLabels>
