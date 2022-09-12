@@ -1,7 +1,11 @@
 public class CustomApex {       //Class definition and body
     public static Integer myValue = 0;  //Class Member variable
     public static String myString = ''; //Class Member variable
+<<<<<<< HEAD
     //update 4 check
+=======
+    //update 5
+>>>>>>> feature/US-0000286
     public static Integer getCalculatedValue () {
     // Method definition and body
     // do some calculation
