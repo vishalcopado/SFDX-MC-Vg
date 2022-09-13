@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
   "instanceUrl": "https://copado-d7--sb13.my.salesforce.com",
+=======
+  "instanceUrl": "https://copado-d7--sb13.sandbox.my.salesforce.com",
+>>>>>>> feature/US-0000243
   "apiVersion": "55.0"
 }
