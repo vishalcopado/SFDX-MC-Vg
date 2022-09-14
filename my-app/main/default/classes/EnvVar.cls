@@ -8,7 +8,7 @@ public class EnvVar {       //Class definition and body
     // update the file for varreplace vgoyal@copado.com
         // kompal check varReplace - kpaliwalDummyVariableDev1
        myValue = myValue+10;
-       System.debug('dev@gmail.com');
+       System.debug('{!Environment.emailTest}');
        //check ./ param in sfdx-project.json
        return myValue;          
     }

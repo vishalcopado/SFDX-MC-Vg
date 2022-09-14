@@ -155,9 +155,9 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <historyRetentionPolicy n1:nil="true" />
-    <label>dev@gmail.com</label>
+    <label>{!Environment.emailTest}</label>
     <nameField>
-        <label>dev@gmail.com Name</label>
+        <label>{!Environment.emailTest} Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>dev_gmail_coms</pluralLabel>
