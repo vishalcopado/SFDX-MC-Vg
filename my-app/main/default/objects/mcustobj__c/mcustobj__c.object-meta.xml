@@ -150,17 +150,17 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <historyRetentionPolicy n1:nil="true" />
-    <label>Bulk Object 00</label>
+    <label>mcustobj</label>
     <nameField>
-        <label>Name</label>
+        <label>mcustobj Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bulk Objects 0</pluralLabel>
+    <pluralLabel>mcustobjs</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
