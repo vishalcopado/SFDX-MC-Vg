@@ -59,11 +59,11 @@
     </prompts>
     <quickActions>
         <label></label>
-        <name>LogACall</name>
+        <name>NewAccount</name>
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewAccount</name>
+        <name>LogACall</name>
     </quickActions>
     <quickActions>
         <label></label>
@@ -79,11 +79,11 @@
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewEvent</name>
+        <name>NewGroup</name>
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewGroup</name>
+        <name>NewEvent</name>
     </quickActions>
     <quickActions>
         <label></label>
@@ -95,11 +95,11 @@
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewOpportunity</name>
+        <name>NewTask</name>
     </quickActions>
     <quickActions>
         <label></label>
-        <name>NewTask</name>
+        <name>NewOpportunity</name>
     </quickActions>
     <reportTypes>
         <description></description>
