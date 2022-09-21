@@ -1,5 +1,5 @@
 public class UpdateValidationOne {
-    // update test class for testing Quick deploy callback apex fix
+    // update test class for testing Quick deploy callback apex fix change conflict 2
     // Takes a Fahrenheit temperature and returns the Celsius equivalent.
     public static Decimal FahrenheitToCelsius(Decimal fh) {
         // update 2
