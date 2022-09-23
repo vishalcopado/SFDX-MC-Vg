@@ -10,7 +10,7 @@ private class UpdateValidationOneTest {
     }
     @isTest static void testBoilingPoint() {
         Decimal celsius = UpdateValidationOne.FahrenheitToCelsius(212);        
-        System.assertEquals(100,celsius,'Boiling point temperature is not expected.');
+        System.assertEquals(101,celsius,'Boiling point temperature is not expected.');
     } 
     @isTest static void testNegativeTemp() {
         Decimal celsius = UpdateValidationOne.FahrenheitToCelsius(-10);
